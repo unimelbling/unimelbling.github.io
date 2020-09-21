@@ -1,0 +1,71 @@
+:root {
+    --orange: #f25f20;
+    --white: #eae6e5;
+    --black: #12130f;
+    --dark-green: #5b9279;
+    --light-green: #8fcb9b; 
+}
+
+@font-face {
+    font-family: "Lato-Light";
+    src: url("../fonts/Lato/Lato-Light.ttf") format("truetype");
+}
+
+h1 {
+    font-family: "Lato-Light", "Times new Roman", "Times", serif;
+}
+
+body, html {
+    margin: 5vh 5vw 5vh 5vw;
+}
+    
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--white);
+    color: var(--black);
+}
+
+a:link {
+    color: var(--dark-green);
+}
+
+a:visited {
+    color: var(--light-green);
+}
+
+.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: var(--black);
+    overflow: hidden;
+}
+
+.topnav li a {
+    font-weight: bold;
+    float: left;
+    color: var(--white);
+    text-align: center;
+    padding: 1vh 1vw 1vh 1vw;
+    text-decoration: none;
+}
+
+.topnav li a:hover {
+    background-color: var(--orange);
+}
+
+.topnav a.active {
+    background-color: var(--orange);
+}
+
+.topnav-right {
+    float: right;
+}
+
+.bubble {
+    line-height: 130%;
+}
+
+.bubble a:link {
+    font-weight: bold;
+}
