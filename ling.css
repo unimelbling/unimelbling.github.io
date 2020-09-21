@@ -7,12 +7,25 @@
 }
 
 @font-face {
-    font-family: "Lato-Light";
-    src: url("../fonts/Lato/Lato-Light.ttf") format("truetype");
+    font-family: "Lato";
+    src: url("fonts/Lato/Lato-Regular.ttf") format("truetype");
 }
 
+@font-face {
+    font-family: "Lato";
+    src: url("fonts/Lato/Lato-Light.ttf") format("truetype");
+    font-weight: lighter;
+}
+
+@font-face {
+    font-family: "Lato";
+    src: url("fonts/Lato/Lato-Bold.ttf") format("truetype");
+    font-weight: bold;
+}
+
+
 h1 {
-    font-family: "Lato-Light", "Times new Roman", "Times", serif;
+    font-family: "Times New Roman", serif;
 }
 
 body, html {
@@ -20,7 +33,7 @@ body, html {
 }
     
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Lato", Arial, Helvetica, sans-serif;
     background-color: var(--white);
     color: var(--black);
 }
@@ -62,10 +75,18 @@ a:visited {
     float: right;
 }
 
-.bubble {
-    line-height: 130%;
+ul.articles {
+    padding-left: 20px;
 }
 
-.bubble a:link {
+ul.articles a {
+    font-family: "Lato", sans-serif;
+    font-size: large;
     font-weight: bold;
 }
+
+ul.articles li {
+    font-size: medium;
+    padding-bottom: 20px;
+}
+
