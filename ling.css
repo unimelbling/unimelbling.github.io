@@ -57,6 +57,7 @@ body {
 .logos li.left img {
     float: left;
     height: 20px;
+    padding-left: 0px;
     padding-right: 10px;
 }
 
