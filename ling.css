@@ -38,7 +38,7 @@ body {
     color: var(--black);
 }
 
-.logos {
+.footer {
     height: 60px;
     margin-bottom: 50px;
     margin-top: 100px;
@@ -47,14 +47,20 @@ body {
     padding: 0;
 }
 
-.logos li img {
+.footer li img {
     float: right;
 }
 
-.logos li.left {
+.footer div.left {
     float: left;
+    text-align: left;
 }
-.logos li.left img {
+
+.footer div.left li {
+    margin-bottom:10px;
+}
+
+.footer div.left img {
     float: left;
     height: 20px;
     padding-left: 0px;
@@ -67,7 +73,7 @@ body {
     text-align: left;
 }    
 
-.logos img, .wug img {
+.footer img, .wug img {
     height: 60px;
     padding-left: 10px;
 }    
