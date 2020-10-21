@@ -39,9 +39,9 @@ body {
 }
 
 .footer {
-    height: 60px;
-    margin-bottom: 50px;
-    margin-top: 100px;
+    height: 5em;
+    margin-bottom: 4em;
+    margin-top: 7em;
     text-align: right;
     list-style-type: none;
     padding: 0;
@@ -57,25 +57,25 @@ body {
 }
 
 .footer div.left li {
-    margin-bottom:10px;
+    margin-bottom:1em;
 }
 
 .footer div.left img {
     float: left;
-    height: 20px;
-    padding-left: 0px;
-    padding-right: 10px;
+    height: 1.5em;
+    padding-left: 0em;
+    padding-right: 0.5em;
 }
 
 .wug {
-    height: 60px;
-    margin-bottom: 0px;
+    height: 4em;
+    margin-bottom: 0em;
     text-align: left;
 }    
 
 .footer img, .wug img {
-    height: 60px;
-    padding-left: 10px;
+    height: 4em;
+    padding-left: 0.5em;
 }    
 
 a:link {
@@ -99,7 +99,7 @@ a:visited {
     float: left;
     color: var(--white);
     text-align: center;
-    padding: 5px 10px 5px 10px;
+    padding: 0.4em 0.8em 0.4em 0.8em;
     text-decoration: none;
 }
 
@@ -115,8 +115,18 @@ a:visited {
     float: right;
 }
 
+.events ul {
+    list-style-type: none;
+    padding:0;
+    
+}
+img {
+    max-width:100%;
+    height:auto;
+}
+
 ul.articles {
-    padding-left: 20px;
+    padding-lesft: 1.6em;
 }
 
 ul.articles a {
@@ -127,6 +137,6 @@ ul.articles a {
 
 ul.articles li {
     font-size: medium;
-    padding-bottom: 20px;
+    padding-bottom: 1.6em;
 }
 
