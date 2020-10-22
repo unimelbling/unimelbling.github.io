@@ -53,13 +53,13 @@ body {
 .footer div.right {
     float: right;
     text-align: right;
-    width: 30%;
+    width: 40%;
 }
 
 .footer div.left {
     float: left;
     text-align: left;
-    width:70%;
+    width:60%;
 }
 
 .footer div.left ul {
