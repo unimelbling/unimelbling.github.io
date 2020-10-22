@@ -120,7 +120,6 @@ a:visited {
 .mobile-topnav img {
     height: 4em;
     margin-top: 1em;
-    margin-bottom: -1em;
     margin-left: 50%;
     transform: translate(-50%)
 }
